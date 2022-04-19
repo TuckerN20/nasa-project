@@ -1,0 +1,55 @@
+
+
+
+main {
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Antonio', sans-serif;
+    
+}
+section {
+    display: flex;
+    height: 324px;
+    width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-direction: row;
+    justify-content:center;
+    font-family: 'Antonio', sans-serif;
+    
+}
+article { 
+    display: flex;
+    width: 270px;
+    height: 324px;
+    background-color: rgb(224, 222, 222);
+    
+}
+    
+
+.socialMedia {
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactUs {
+    flex-direction: column;
+    text-align: center;
+}
+
+.officialInfo {
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
